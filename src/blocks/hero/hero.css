@@ -1,0 +1,26 @@
+.hero {
+  max-width: 1280px;
+  margin: 20px auto 0;
+  width: 68.75%;
+}
+
+.hero__title {
+  margin: 0 auto 0;
+  text-align: center;
+  color: rgba(10, 96, 254, 1);
+  font-size: 53px;
+  font-weight: 500;
+  width: 100%;
+  max-width: 1280px;
+  padding-bottom: 30px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  max-width: 1280px;
+  height: 600px;
+  padding-bottom: 50px;
+  object-fit: cover;
+}
+
