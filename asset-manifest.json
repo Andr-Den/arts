@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/arts/static/css/main.8c189a58.css",
+    "main.js": "/arts/static/js/main.ee6f2682.js",
+    "static/js/787.dbec9f49.chunk.js": "/arts/static/js/787.dbec9f49.chunk.js",
+    "static/media/OKR.png": "/arts/static/media/OKR.fe7cdb4cc2f551f3cdf5.png",
+    "static/media/Personal.png": "/arts/static/media/Personal.adbab97400ce34c7d900.png",
+    "static/media/image2.jpg": "/arts/static/media/image2.af04529b76592f685bde.jpg",
+    "static/media/image3.jpg": "/arts/static/media/image3.4c398f80c4df3446f158.jpg",
+    "static/media/image1.jpg": "/arts/static/media/image1.b6bbc48d192d16163cc0.jpg",
+    "static/media/Lines.png": "/arts/static/media/Lines.69e808edac3ffae523e6.png",
+    "static/media/Inter-Medium.woff?v=3.19": "/arts/static/media/Inter-Medium.9053572c46aeb4b16caa.woff",
+    "static/media/Inter-Black.woff": "/arts/static/media/Inter-Black.c6938660eec019fefd68.woff",
+    "static/media/Inter-Regular.woff": "/arts/static/media/Inter-Regular.8c206db99195777c6769.woff",
+    "static/media/Inter-Medium.woff2?v=3.19": "/arts/static/media/Inter-Medium.293fd13dbca5a3e450ef.woff2",
+    "static/media/Inter-Black.woff2": "/arts/static/media/Inter-Black.15ca31c0a2a68f76d2d1.woff2",
+    "static/media/Inter-Regular.woff2": "/arts/static/media/Inter-Regular.c8ba52b05a9ef10f4758.woff2",
+    "static/media/logo_1.svg": "/arts/static/media/logo_1.85b0b630eaee0a0343f1012846174c34.svg",
+    "index.html": "/arts/index.html",
+    "static/media/menu.svg": "/arts/static/media/menu.7a034555b14ef8277974087e0ec2a26f.svg",
+    "main.8c189a58.css.map": "/arts/static/css/main.8c189a58.css.map",
+    "main.ee6f2682.js.map": "/arts/static/js/main.ee6f2682.js.map",
+    "787.dbec9f49.chunk.js.map": "/arts/static/js/787.dbec9f49.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c189a58.css",
+    "static/js/main.ee6f2682.js"
+  ]
+}
