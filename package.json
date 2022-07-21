@@ -1,5 +1,6 @@
 {
   "name": "arts",
+  "homepage": "https://andr-den.github.io/arts/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
