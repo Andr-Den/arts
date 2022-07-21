@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+}
+@import url(./vendor/fonts/fonts.css);
+@import url(../src/blocks/header/header.css);
+@import url(../src/blocks/hero/hero.css);
+@import url(../src/blocks/activities/activities.css);
+
+@import url(../src/blocks/footer/footer.css);
+@import url(../src/blocks/not-found/not-found.css);
