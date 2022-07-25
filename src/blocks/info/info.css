@@ -1,0 +1,38 @@
+.info__container {
+    max-width: 1280px;
+    margin: 0 auto 0;
+    width: 68.75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.info__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info__title {
+  text-align: center;
+  font-size: 56px;
+  font-weight: 400;
+}
+
+.info__phone {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.info__address {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.info__email {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.info__map {
+  width: 100%;
+  height: 500px;
+}

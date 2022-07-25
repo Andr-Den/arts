@@ -19,10 +19,10 @@ const navMenu = [
   }
 ]
 
-function Footer({page, className}) {
+function Footer({page, container_className, footer_className}) {
   return (
-    <footer className="footer">
-      <div className={`footer__container ${className}`}>
+    <footer className={`footer ${footer_className}`}>
+      <div className={`footer__container ${container_className}`}>
       <div className={`contact__container ${page}`}>
         <p className="contact__phone">+7 (922) 202-24-76</p>
         <div className="contact__box">

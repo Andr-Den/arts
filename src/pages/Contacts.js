@@ -8,7 +8,7 @@ function Contacts() {
     <div className="page">
       <Header />
       <Info />
-      <Footer page="contact__container_no-active" className="footer__padding"/>
+      <Footer page="contact__container_no-active" container_className="footer__padding"  footer_className="footer__margin"/>
     </div>
   );
 }
