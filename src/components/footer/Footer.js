@@ -17,7 +17,6 @@ const navMenu = [
     name: 'Новости',
     to: '/news'
   }
-  , 'Продукты', 'Контакты', 'Новости'
 ]
 
 function Footer({page, className}) {

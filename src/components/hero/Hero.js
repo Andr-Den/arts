@@ -32,10 +32,8 @@ function Hero() {
         modules={[Pagination]}
       >
         {imagesList.map(({ src }) => (
-          <SwiperSlide>
-            <div>
+          <SwiperSlide  key={src}>
             <img src={src} alt=""/>
-            </div>
           </SwiperSlide>
         ))}
       </Swiper>
