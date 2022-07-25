@@ -43,7 +43,8 @@
 }
 
 .activities__link:hover {
-  background-color: #000000;
+  background-color: rgba(143, 181, 57, 1);
+  border: 1px solid rgba(143, 181, 57, 1);
 }
 
 .activities__title {
