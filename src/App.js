@@ -12,7 +12,7 @@ import MonitoringLines from './pages/MonitoringLines';
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Main />} />
+      <Route path="/arts" element={<Main />} />
       <Route path="/about-us" element={<AboutUs />} />
       <Route path="/contacts" element={<Contacts />} />
       <Route path="/monitoring-person" element={<MonitoringPerson />} />

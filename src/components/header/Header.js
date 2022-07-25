@@ -26,7 +26,7 @@ function Header() {
   return (
     <header className="header">
       <div className="header__container">
-        <a href="/"><img src={logo} alt="логотип" className="header__logo" /></a>
+        <a href="/arts"><img src={logo} alt="логотип" className="header__logo" /></a>
         <nav className="header__nav">
           {navMenu.map(({name, to}) => (
             <a href={to} className="header__links" key={name}>{name}</a>
