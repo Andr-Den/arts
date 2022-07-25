@@ -42,8 +42,12 @@ padding: 10px 0 10px;
 	cursor: pointer;
 	line-height: 1;
 	text-decoration: none;
-
 }
+
+.header__drop-link {
+  position: relative;
+}
+
 .header__links:after {
 	display: block;
 	position: absolute;
