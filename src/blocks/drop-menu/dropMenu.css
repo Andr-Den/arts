@@ -26,3 +26,7 @@
 	text-decoration: none;
   margin-top: 20px;
 }
+
+.menu__links:hover {
+  color: rgba(143, 181, 57, 1);
+}

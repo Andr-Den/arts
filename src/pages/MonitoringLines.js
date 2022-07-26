@@ -9,7 +9,7 @@ function MonitoringLines() {
     <div className="page">
       <Header />
       <Product src={lines} title='Мониторинг и диагностика высоковольтных линий' description='Системы фиксируют возникновение аварий в реальном времени и производят статистический анализ накопленной информации и предаварийных ситуаций.'/>
-      <Footer page="contact__container_no-active" className="footer__padding"/>
+      <Footer page="contact__container_no-active" container_className="footer__padding"  footer_className="footer__margin"/>
     </div>
   );
 }
