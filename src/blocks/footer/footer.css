@@ -1,5 +1,4 @@
 .footer {
-  /* background-color: rgba(0, 0, 0, .5); */
   background-color: #eceff1;
   width: 100%;
   font-weight: 400;
@@ -28,12 +27,12 @@
 
 .footer__links {
   text-decoration: none;
-  /* color: #ffffff; */
   color: #000000;
+  margin: 0;
+  font-weight: 500;
 }
 
 .footer__links:hover {
-  /* color: rgb(10, 96, 254); */
   color: rgba(143, 181, 57, 1);
 }
 
@@ -46,8 +45,9 @@
 }
 
 .footer__copyright {
-  /* color: #ffffff; */
   color: #000000;
+  margin: 0;
+  font-size: 16px;
 }
 
 .contact__container {
@@ -91,4 +91,29 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
+}
+
+.footer__drop-links {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__nav {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  font-size: 16px;
+  gap: 30px;
+}
+
+.footer__link {
+  font-size: 14px;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.footer__link:hover {
+  color: rgba(143, 181, 57, 1);
 }
