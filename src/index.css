@@ -8,6 +8,7 @@ body {
 @import url(../src/blocks/activities/activities.css);
 @import url(../src/blocks/info/info.css);
 @import url(../src/blocks/drop-menu/dropMenu.css);
+@import url(../src/blocks/product/product.css);
 
 @import url(../src/blocks/footer/footer.css);
 @import url(../src/blocks/not-found/not-found.css);
