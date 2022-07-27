@@ -12,7 +12,7 @@ label {
 label div {
   position: relative;
   top: 0;
-  height: 12px;
+  height: 6px;
   background-color: #000000;
   margin-bottom: 12px;
   transition: 0.3s ease transform, 0.3s ease top, 0.3s ease width,
@@ -26,12 +26,12 @@ label div:first-child {
 
 label div:last-child {
   margin-bottom: 0;
-  transform-origin: 60px;
+  transform-origin: 48px;
 }
 
 label div:nth-child(2) {
   right: 0;
-  width: 60px;
+  width: 40x;
 }
 
 #menu_checkbox:checked + label div:first-child {
@@ -45,8 +45,8 @@ label div:nth-child(2) {
 }
 
 #menu_checkbox:checked + label div:nth-child(2) {
-  width: 85px;
-  top: 0;
+  width: 80px;
+  top: 4px;
   right: 13px;
   transform: rotateZ(-45deg);
 }
