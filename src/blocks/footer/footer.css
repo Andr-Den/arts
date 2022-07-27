@@ -53,7 +53,7 @@
 .contact__container {
   display: flex;
   justify-content: space-between;
-  padding: 30px 60px;
+  /* padding: 30px 60px; */
   box-shadow: 1px 3px  18px rgba(0, 0, 0, .7);
   position: absolute;
   top: -80px;
@@ -61,7 +61,7 @@
   align-items: center;
   max-width: 1280px;
   margin: 0 auto 0;
-  width: 62%;
+  width: 68.75%;
 }
 
 .contact__container_no-active {
@@ -71,6 +71,7 @@
 .contact__phone {
   font-size: 32px;
   margin: 0;
+  padding: 30px 0 30px 60px;
 }
 
 .contact__address {
@@ -91,6 +92,7 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
+  padding: 30px 60px 30px 0;
 }
 
 .footer__drop-links {
@@ -104,7 +106,7 @@
   display: grid;
   grid-template-columns: repeat(4, 200px);
   font-size: 16px;
-  gap: 30px;
+  gap: 10px;
 }
 
 .footer__link {
@@ -116,4 +118,90 @@
 
 .footer__link:hover {
   color: rgba(143, 181, 57, 1);
+}
+
+@media screen and (max-width: 1425px){
+  .footer__nav {
+    grid-template-columns: repeat(4, 150px);
+    font-size: 14px;
+  }
+
+  .footer__copyright {
+    font-size: 14px;
+  }
+
+  .contact__phone {
+    font-size: 26px;
+  }
+  
+  .contact__address {
+    font-size: 14px;
+  }
+  
+  .contact__email {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1110px){
+  .footer__link {
+    display: none;
+  }
+
+  .footer__nav {
+    grid-template-columns: repeat(4, 120px);
+    font-size: 14px;
+  }
+
+  .contact__container {
+    flex-direction: column;
+  }
+
+  .contact__phone {
+    padding: 20px 0 0 0;
+  }
+
+  .contact__box {
+    gap: 10px;
+    margin-top: 10px;
+    padding: 0 0 20px 0;
+  }
+
+  .contact__address {
+    text-align: center;
+  }
+  
+  .contact__email {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 940px){
+  .footer__container {
+    flex-direction: column;
+    padding-top: 80px;
+  }
+
+  .footer__copyright {
+    margin-top: 20px;
+  }
+
+  .footer__nav {
+    grid-template-columns: none;
+    grid-template-rows: 4;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .contact__phone {
+    font-size: 20px;
+  }
+
+  .contact__address {
+    font-size: 14px;
+  }
+  
+  .contact__email {
+    font-size: 14px;
+  }
 }
