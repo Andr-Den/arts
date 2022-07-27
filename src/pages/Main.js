@@ -8,7 +8,7 @@ function Main() {
   return (
     <div className="page">
       <Header />
-      {/* <Hero /> */}
+      <Hero />
       <Activities />
       <Footer />
     </div>

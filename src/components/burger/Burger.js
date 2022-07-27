@@ -1,6 +1,6 @@
 import React from "react";
 
-function Burger({onClick, className}) {
+function Burger({onClick}) {
 
   return (
     <div className="burger__active">
