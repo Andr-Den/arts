@@ -60,3 +60,36 @@
   stroke: white;
 }
 
+@media screen and (max-width: 1500px){
+  .activities__container {
+    margin: 60px auto 60px;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 1110px){
+  .activities__container {
+    margin: 30px auto 30px;
+  }
+
+  .activities__image {
+    width: 400px;
+    height: 320px;
+    object-fit: cover;
+  }
+
+  .activities__heading {
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .activities__text {
+    width: 400px;
+  }
+
+  .activities__title {
+    font-size: 16px;
+    width: 300px;
+  }
+}
+
