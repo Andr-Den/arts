@@ -68,20 +68,7 @@ position: relative;
 	width: 100%;
 }
 
-.header__burger {
-  display: none;
-  width: 34px;
-}
-
-.header__burger:hover {
-  cursor: pointer;
-}
-
 @media screen and (max-width: 830px){
-  .header__burger {
-    display: block;
-  }
-
   .header__nav {
     display: none;
   }
