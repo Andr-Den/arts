@@ -18,21 +18,21 @@ function Header() {
           <p className="header__name">НПП "АРТС"</p>
         </div>
         <nav className="header__nav">
-            <a href='/about-us' className="header__links">О нас</a>
+            <a href='/#/about-us' className="header__links">О нас</a>
             <div className="header__drop-link">
-              <p href='/products' className="header__links">Продукты</p>
+              <a href='/#/products' className="header__links">Продукты</a>
               <DropMenu />
             </div>
-            <a href='/contacts' className="header__links">Контакты</a>
-            <a href='/news' className="header__links">Новости</a>
+            <a href='/#/contacts' className="header__links">Контакты</a>
+            <a href='/#/news' className="header__links">Новости</a>
         </nav>
         <Burger onClick={handleToggleMenu}/>
       </div>
       {openMenu ? <ul className="burger__menu">
-        <a href="/about-us" className="burger__links">О нас</a>
-        <a href="/products" className="burger__links">Продукты</a>
-        <a href="/contacts" className="burger__links">Контакты</a>
-        <a href="/news" className="burger__links">Новости</a>
+        <a href="/#/about-us" className="burger__links">О нас</a>
+        <a href="/#/products" className="burger__links">Продукты</a>
+        <a href="/#/contacts" className="burger__links">Контакты</a>
+        <a href="/#/news" className="burger__links">Новости</a>
       </ul> : ''}
     </header>
   )

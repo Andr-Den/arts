@@ -3,15 +3,15 @@ import React from "react";
 const products = [
   {
     name: 'Мониторинг персонала',
-    to: '/monitoring-person'
+    to: '/#/monitoring-person'
   },
   {
     name: 'Заказные ОКP',
-    to: '/okr'
+    to: '/#/okr'
   },
   {
     name: 'Мониторинг и диагностика высоковольтных линий',
-    to: '/monitoring-lines'
+    to: '/#/monitoring-lines'
   },
 ];
 
