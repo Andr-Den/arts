@@ -13,13 +13,13 @@ import MonitoringLines from './pages/MonitoringLines';
 function App() {
   return (
     <Routes>
-      <Route path="/arts" element={<Main />} />
-      <Route path="/#/about-us" element={<AboutUs />} />
-      <Route path="/#/products" element={<Products />} />
-      <Route path="/#/contacts" element={<Contacts />} />
-      <Route path="/#/monitoring-person" element={<MonitoringPerson />} />
-      <Route path="/#/okr" element={<OKR />} />
-      <Route path="/#/monitoring-lines" element={<MonitoringLines />} />
+      <Route exact path="/arts" element={<Main />} />
+      <Route exact path="/about-us" element={<AboutUs />} />
+      <Route exact path="/products" element={<Products />} />
+      <Route exact path="/contacts" element={<Contacts />} />
+      <Route exact path="/monitoring-person" element={<MonitoringPerson />} />
+      <Route exact path="/okr" element={<OKR />} />
+      <Route exact path="/monitoring-lines" element={<MonitoringLines />} />
       <Route path="*" element={<NotFound/>} />
     </Routes>
   );
