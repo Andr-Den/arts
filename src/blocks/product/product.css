@@ -17,7 +17,7 @@
 }
 
 .product__image {
-  width: 700px;
+  width: 600px;
 }
 
 .product__box {
@@ -28,4 +28,28 @@
 .product__description {
   margin: 0;
   font-size: 24px;
+}
+
+@media screen and (max-width: 1232px){
+  .product__box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .product__description {
+    text-align: center;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .product__title {
+    font-size: 40px;
+  }
+
+  .product__image {
+    width: 100%;
+  }
 }
