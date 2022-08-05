@@ -5,7 +5,7 @@ import Footer from '../components/footer/Footer';
 function AboutUs() {
   return (
     <div className="page">
-      <Header />
+      <Header className="header"/>
 
       <Footer/>
     </div>

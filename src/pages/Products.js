@@ -5,7 +5,7 @@ import Activities from '../components/activities/Activities'
 function Products() {
   return (
     <div className="page">
-      <Header />
+      <Header className="header"/>
       <Activities />
       <Footer page="contact__container_no-active" container_className="footer__padding"  footer_className="footer__margin"/>
     </div>
