@@ -9,17 +9,17 @@ import ChevronRight from '../shared/ChevronRight'
 const activities = [
   {
     title: 'Мониторинг персонала',
-    to: '/monitoring-person',
+    to: '#/monitoring-person',
     src: personal
   },
   {
     title: 'Заказные ОКP',
-    to: '/okr',
+    to: '#/okr',
     src: okr,
   },
   {
     title: 'Мониторинг и диагностика высоковольтных линий',
-    to: '/monitoring-lines',
+    to: '#/monitoring-lines',
     src: lines,
   },
 ]
