@@ -9,6 +9,7 @@ import Products from './pages/Products';
 import MonitoringPerson from './pages/MonitoringPerson';
 import OKR from './pages/OKR';
 import MonitoringLines from './pages/MonitoringLines';
+import Active from './pages/Active';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Route exact path="/products" element={<Products />} />
       <Route exact path="/contacts" element={<Contacts />} />
       <Route exact path="/monitoring-person" element={<MonitoringPerson />} />
+      <Route exact path="/active" element={<Active />} />
       <Route exact path="/okr" element={<OKR />} />
       <Route exact path="/monitoring-lines" element={<MonitoringLines />} />
       <Route path="*" element={<NotFound/>} />
