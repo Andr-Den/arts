@@ -3,8 +3,11 @@ import React from 'react';
 import personal from '../../images/Personal.png'
 import lines from '../../images/Lines.png'
 import okr from '../../images/OKR.png'
+import lightning from '../../images/str23.jpeg'
 
 import ChevronRight from '../shared/ChevronRight'
+
+<a href="#/active" className="footer__link">Активная молниезащита</a>
 
 const activities = [
   {
@@ -13,14 +16,19 @@ const activities = [
     src: personal
   },
   {
-    title: 'Заказные ОКP',
-    to: '#/okr',
-    src: okr,
-  },
-  {
     title: 'Мониторинг и диагностика высоковольтных линий',
     to: '#/monitoring-lines',
     src: lines,
+  },
+  {
+    title: 'Активная молниезащита',
+    to: '#/active',
+    src: lightning,
+  },
+  {
+    title: 'Заказные ОКP',
+    to: '#/okr',
+    src: okr,
   },
 ]
 

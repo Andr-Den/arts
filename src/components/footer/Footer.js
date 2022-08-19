@@ -50,8 +50,9 @@ function Footer({page, container_className, footer_className}) {
           <ul className="footer__drop-links">
             <a href='#/products' className="footer__links">Продукты</a>
             <a href="#/monitoring-person" className="footer__link">Мониторинг персонала</a>
-            <a href="#/okr" className="footer__link">Заказные ОКP</a>
             <a href="#/monitoring-lines" className="footer__link">Мониторинг и диагностика высоковольтных линий</a>
+            <a href="#/active" className="footer__link">Активная молниезащита</a>
+            <a href="#/okr" className="footer__link">Заказные ОКP</a>
           </ul>
             <a href='#/contacts' className="footer__links">Контакты</a>
             <a href='#/news' className="footer__links">Новости</a>

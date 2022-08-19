@@ -6,12 +6,16 @@ const products = [
     to: '/#/monitoring-person'
   },
   {
-    name: 'Заказные ОКP',
-    to: '/#/okr'
-  },
-  {
     name: 'Мониторинг и диагностика высоковольтных линий',
     to: '/#/monitoring-lines'
+  },
+  {
+    name: "Активная молниезащита",
+    to: '/#/active'
+  },
+  {
+    name: 'Заказные ОКP',
+    to: '/#/okr'
   },
 ];
 
