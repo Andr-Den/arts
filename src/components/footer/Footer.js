@@ -1,39 +1,5 @@
 import React from 'react';
 
-const products = [
-  {
-    name: 'Мониторинг персонала',
-    to: '/monitoring-person'
-  },
-  {
-    name: 'Заказные ОКP',
-    to: '/okr'
-  },
-  {
-    name: 'Мониторинг и диагностика высоковольтных линий',
-    to: '/monitoring-lines'
-  },
-];
-
-const navMenu = [
-  {
-    name: 'О нас',
-    to: '/about-us'
-  },
-  {
-    name: 'Продукты',
-    to: '/products'
-  },
-  {
-    name: 'Контакты',
-    to: '/contacts'
-  },
-  {
-    name: 'Новости',
-    to: '/news'
-  }
-]
-
 function Footer({page, container_className, footer_className}) {
   return (
     <footer className={`footer ${footer_className}`}>
