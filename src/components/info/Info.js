@@ -9,7 +9,7 @@ function Info() {
         <p className="info__phone">+7 (922) 202-24-76</p>
           <div>
             <p className="info__address">620073, г. Екатеринбург, ул. Крестинского, 44</p>
-            <p className="info__email">info@example.com</p>
+            <a className="info__email" href="mailto:info@example.com" target="_blank" rel="noopener noreferrer">info@example.com</a>
             </div>
         </div>
         <div className="info__map">
