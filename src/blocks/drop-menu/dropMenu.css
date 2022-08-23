@@ -1,6 +1,7 @@
 .menu {
   display: none;
   position: absolute;
+  top: 30px;
   background-color: #ffffff;
   z-index: 20;
   width: 300px;
