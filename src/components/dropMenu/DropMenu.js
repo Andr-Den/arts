@@ -1,21 +1,22 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const products = [
   {
     name: 'Мониторинг персонала',
-    to: '/#/monitoring-person'
+    to: '/monitoring-person'
   },
   {
     name: 'Мониторинг и диагностика высоковольтных линий',
-    to: '/#/monitoring-lines'
+    to: '/monitoring-lines'
   },
   {
     name: "Активная молниезащита",
-    to: '/#/active'
+    to: '/active'
   },
   {
     name: 'Заказные ОКP',
-    to: '/#/okr'
+    to: '/okr'
   },
 ];
 
@@ -25,7 +26,7 @@ function DropMenu() {
       <ul className="menu__list">
       {products.map(({name, to}) => (
         <li key={name} className="menu__links">
-          <a href={to} className="menu__links">{name}</a>
+          <Link to={to} className="menu__links">{name}</Link>
         </li>
       ))}
     </ul>
