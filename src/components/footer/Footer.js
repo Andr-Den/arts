@@ -8,7 +8,7 @@ function Footer({page, container_className, footer_className}) {
         <p className="contact__phone">+7 (922) 202-24-76</p>
         <div className="contact__box">
           <p className="contact__address">620073, г. Екатеринбург, ул. Крестинского, 44</p>
-          <p className="contact__email">info@example.com</p>
+          <a className="contact__email" href="mailto:info@example.com" target="_blank" rel="noopener noreferrer">info@example.com</a>
         </div>
       </div>
        <nav className="footer__nav">

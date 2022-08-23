@@ -82,6 +82,13 @@
 .contact__email {
   font-size: 20px;
   margin: 0;
+  text-decoration: none;
+  color: #000000;
+}
+
+.contact__email:hover {
+  cursor: pointer;
+  color: rgba(143, 181, 57, 1);
 }
 
 .contact__span {
