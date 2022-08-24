@@ -38,13 +38,13 @@ function Activities() {
       <h2 className="activities__heading">Направления деятельности</h2>
       <div className="activities__container">
       {activities.map(({title, src, to}) => (
-        <div className="activities__block" key={title}>
+        <a className="activities__block" key={title} href={to}>
           <img src={src} alt="" className="activities__image"/>
           <div className="activities__text">
             <h2 className="activities__title">{title}</h2>
             <a href={to} className="activities__link"><ChevronRight className="chevron-right"/></a>
           </div>
-        </div>
+        </a>
         ))}
         </div>
     </section> 
