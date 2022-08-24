@@ -14,7 +14,7 @@ function Header({className}) {
     <header className={className}>
       <div className="header__container">
         <div className="header__logo-box">
-          <a href="#/arts"><img src={logo} alt="логотип" className="header__logo" /></a>
+          <a href="#/arts"><img src={logo} alt="логотип" className="header__logo rotation" /></a>
           <p className="header__name">НПП "АРТС"</p>
         </div>
         <nav className="header__nav">
